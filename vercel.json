@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/search", "dest": "/search" },
+    { "src": "/activity", "dest": "/activity" },
+    { "src": "/new-post", "dest": "/new-post" },
+    { "src": "/profile", "dest": "/profile" },
+    { "src": "/login", "dest": "/login" },
+    { "src": "/signup", "dest": "/signup" },
+    { "src": "/[^.]+", "dest": "/", "status": 200 }
+  ]
+}
